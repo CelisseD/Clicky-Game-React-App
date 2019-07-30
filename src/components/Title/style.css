@@ -1,0 +1,14 @@
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  color: #2A77AE;
+  margin-bottom: 50px;
+}
+
+.jumbotron {
+  width:100%;
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/grey_wash_wall.png");
+  color: whitesmoke;
+}
