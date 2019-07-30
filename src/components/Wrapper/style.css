@@ -1,11 +1,9 @@
 .wrapper {
   width: 100%;
-  margin-top: 50px;
-  padding-top: 50px;
+  padding-top: 100px;
   display: flex;
   flex-flow: row wrap;
-  /* padding: 20px; */
-  justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  margin-left: 100px;
 }

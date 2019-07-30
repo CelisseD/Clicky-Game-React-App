@@ -1,72 +1,60 @@
 [
   {
     "id": 1,
-    "name": "Sophia1",
-    "image": "https://media.giphy.com/media/A8n7leYBSvPig/giphy.gif"
+    "image": "./assets/images/sophia1.gif"
   },
   {
     "id": 2,
-    "name": "Sophia2",
-    "image": "https://media1.giphy.com/media/VMm8rj5DnZIc0/giphy.gif?cid=790b76115d3fbdd453556a6a6f70912c&rid=giphy.gif"
+    "image": "./assets/images/sophia2.gif"
 
   },
   {
     "id": 3,
-    "name": "Sophia3",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626"
+    "image": "./assets/images/sophia3.gif"
 
   },
   {
     "id": 4,
-    "name": "Dorothy1",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png"
+    "image": "./assets/images/dorothy1.gif"
 
   },
   {
     "id": 5,
-    "name": "Dorothy2",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423"
+    "image": "./assets/images/dorothy2.gif"
 
   },
   {
     "id": 6,
-    "name": "Dorothy3",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511"
+    "image": "./assets/images/dorothy3.gif"
 
   },
   {
     "id": 7,
-    "name": "Rose1",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607"
+    "image": "./assets/images/rose1.gif"
 
   },
   {
     "id": 8,
-    "name": "Rose2",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist"
+    "image": "./assets/images/rose2.gif"
 
   },
   {
     "id": 9,
-    "name": "Rose3",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641"
+    "image": "./assets/images/rose3.gif"
 
   },
   {
     "id": 10,
-    "name": "Blanche1",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416"
+    "image": "./assets/images/blanche1.gif"
 
   },
   {
     "id": 11,
-    "name": "Blanche2",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836"
+    "image": "./assets/images/blanche2.gif"
 
   },
   {
     "id": 12,
-    "name": "Blanche3",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png"
+    "image": "./assets/images/blanche3.gif"
   }
 ]
