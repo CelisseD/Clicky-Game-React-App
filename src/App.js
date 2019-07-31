@@ -16,7 +16,7 @@ class App extends Component {
 
   handleFriendClick = id => {
     if (this.state.chosenFriend.includes(id)) {
-      this.setState({ gameStatus: "Game over! Try again!" });
+      this.setState({ gameStatus:"Game over! Try again!" });
       // alert("You have already chosen that friend. Start again!")
       this.handleReset();
     } else {
@@ -55,7 +55,6 @@ class App extends Component {
           highScore={this.state.highScore}
           gameStatus={this.state.gameStatus}
           />
-
         {this.state.friends.map(friend => (
           <FriendCard
             handleFriendClick={this.handleFriendClick}
