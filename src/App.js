@@ -10,21 +10,25 @@ class App extends Component {
     friends,
     chosenFriend: [],
     currentScore: 0,
-    highScore: 0
+    highScore: 0,
+    gameStatus: ""
   };
 
   handleFriendClick = id => {
     if (this.state.chosenFriend.includes(id)) {
-      alert("You have already chosen that friend. Start again!")
+      this.setState({ gameStatus: "Game over! Try again!" });
+      // alert("You have already chosen that friend. Start again!")
       this.handleReset();
     } else {
       let idArray = [];
       idArray.push(id);
+      this.setState({ gameStatus: "Great Job! Keep Clicking!" });
       this.setState({ chosenFriend: idArray});
-      this.state.currentScore <= this.state.highScore -1 ? this.setState({ currentScore: this.state.currentScore +1 })
+      this.state.currentScore <= this.state.highScore -1 
+      ? this.setState({ currentScore: this.state.currentScore +1 })
       : this.setState({
         currentScore: this.state.currentScore + 1,
-        highScore: this.statehighScore + 1
+        highScore: this.state.highScore + 1
       });
 
       let friendCardShuffle = this.state.friends;
@@ -49,6 +53,7 @@ class App extends Component {
         <Title
           currentScore={this.state.currentScore}
           highScore={this.state.highScore}
+          gameStatus={this.state.gameStatus}
           />
 
         {this.state.friends.map(friend => (
