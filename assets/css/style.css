@@ -1,0 +1,27 @@
+body {
+  background: url("../images/palm-leaf.png");
+}
+.navbar {
+    background: darkgreen;
+    -webkit-box-shadow: 0 8px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 18px -1px #000;
+    color: white;
+    height: 90px;
+}
+
+#game-name, #game-result, #game-score {
+    font-size:30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+#game-name {
+    font-family: "Pacifico", Georgia, cursive, serif;
+    font-size: 40px;
+    margin-right: 0px;
+}
+
+.display-4 {
+    margin-top: 100px;
+}
