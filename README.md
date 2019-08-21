@@ -20,6 +20,7 @@ Golden Girls Memory Game features your favorite feisty ladies from the 80s. I us
 
 <ul>
     <li>React</li>
+    <li>Bootstrap</li>
     <li>Javascript</li>
     <li>HTML</li>
 </ul>
